@@ -84,7 +84,7 @@ Checkout tag: `git checkout 2.0.1`
 
 Add a `.gitignore` file to the root of your project. A valid `.gitignore` file can be generated at https://www.gitignore.io/
 
-### Refresh from Upstream
+### Refreshing Forks from Upstream
 
 Open Git Bash.
 

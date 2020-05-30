@@ -14,18 +14,22 @@
 
 Got to folder `'./code'`
 
-#### Dump to current Folder - dumpExtensions.ps1
+Import from my prefered extensions:
 
-```
-code --list-extensions > ".\extensions.txt"
-```
-
-#### Import from current Folder - importExtensions.ps1
+Execute `importExtensions.ps1`:
 
 ```
 foreach($line in Get-Content ".\extensions.txt") {
     code --install-extension $line
 }
+```
+
+Dump current installed Extensions:
+
+Execute `dumpExtensions.ps1`:
+
+```
+code --list-extensions > ".\extensions.txt"
 ```
 
 ## Recommended VS Code Settings
