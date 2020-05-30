@@ -12,6 +12,8 @@ nvm install 12.17.0
 nvm install 10.20.1
 ```
 
+> Note: A full list of Node Versions can be found [here](https://nodejs.org/en/download/releases/)
+
 Switch to a certain Node Version:
 
 ```
