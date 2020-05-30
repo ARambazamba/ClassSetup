@@ -7,6 +7,7 @@
 - [Docker & Kubernetes](docker.md)
 - [Working with Markdown](markdown.md)
 
-# Class Specific Reqirements 
+# Class Specific Reqirements with no Guide
 
-[AZ-204](az-204)
+- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
+- [AZ-400: Azure DevOps Engineer](./classes/az400.md)
