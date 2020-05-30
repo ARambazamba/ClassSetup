@@ -11,3 +11,11 @@ nvm list
 nvm install 12.17.0
 nvm install 10.20.1
 ```
+
+Switch to a certain Node Version:
+
+```
+nvm use 12.17.0
+```
+
+![node](_images/node.png)
