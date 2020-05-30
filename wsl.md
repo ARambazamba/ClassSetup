@@ -16,7 +16,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 
 Install Updated Linux-Kernel:
 
-[Download the Linux kernel update package](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
+[Download the Linux Kernel Update Package](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel)
 
 Set WSL to Version 2:
 
