@@ -1,6 +1,6 @@
 # Working with Markdown
 
-Document your work with Markdown
+Document your work using Markdown
 
 [Intro to Markdown - Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
