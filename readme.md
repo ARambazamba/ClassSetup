@@ -7,7 +7,7 @@
 - [Docker & Kubernetes](docker.md)
 - [Working with Markdown](markdown.md)
 
-# Class Specific Reqirements with no Guide
+# Class Specific Requirements with no Guide
 
 Azure:
 
