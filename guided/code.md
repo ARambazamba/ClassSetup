@@ -34,7 +34,7 @@ code --list-extensions > ".\extensions.txt"
 
 ## Recommended VS Code Settings that I use for delivering the class
 
-Copy settings.json & keybindings.json to `%APPDATA%\Code\User\settings.json`
+Copy settings.json & keybindings.json to `%APPDATA%\Code\User\`
 
 ### settings.json:
 
@@ -87,8 +87,7 @@ Copy settings.json & keybindings.json to `%APPDATA%\Code\User\settings.json`
   "git-graph.fetchAvatars": true,
   "git.autofetchPeriod": 90,
   "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "vsonline.accountProvider": "Microsoft"
+  "git.enableSmartCommit": true
 }
 ```
 
