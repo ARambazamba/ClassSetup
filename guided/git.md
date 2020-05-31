@@ -10,9 +10,7 @@
 
 [Git Extensions for Windows](https://github.com/gitextensions/gitextensions)
 
----
-
-## Github Essentials
+## Working with Git & Github 
 
 ### Configuration
 
