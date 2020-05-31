@@ -1,6 +1,8 @@
 # Windows Subsystem Linux 2 (WSL2)
 
-Requires Windows 10 - May 2020 Update or higher
+Requires Windows 10 - May 2020 Update or higher. To Update use this [link](https://www.microsoft.com/de-de/software-download/windows10).
+
+![windows-update](_images/windows-update.png)
 
 Enable the Windows Subsystem for Linux:
 

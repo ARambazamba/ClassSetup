@@ -9,17 +9,17 @@
 
 # Class Specific Requirements with no Guide
 
-Azure:
-
-- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
-- [AZ-400: Azure DevOps Engineer](./classes/az400.md)
-
 Web Development:
 
 - [webAdv: Advanced Web Technologies](./classes/webAdv.md)
 - [ngDev: Angular Single Page Application Development](./classes/ngDev.md)
 - [ngAdv: Advanced Angular Development](./classes/ngAdv.md)
 - [react: Implementing Web Apps using React and Redux](react.md)
+
+Azure:
+
+- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
+- [AZ-400: Azure DevOps Engineer](./classes/az400.md)
 
 Microsoft 365
 
