@@ -14,7 +14,6 @@ Web Development:
 - [webAdv: Advanced Web Technologies](./classes/webAdv.md)
 - [ngDev: Angular Single Page Application Development](./classes/ngDev.md)
 - [ngAdv: Advanced Angular Development](./classes/ngAdv.md)
-- [react: Implementing Web Apps using React and Redux](react.md)
 
 Azure:
 
