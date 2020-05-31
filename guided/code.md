@@ -32,7 +32,7 @@ Execute `dumpExtensions.ps1`:
 code --list-extensions > ".\extensions.txt"
 ```
 
-## Recommended VS Code Settings that I use for delivering the class
+## Recommended VS Code Settings used for class delivery
 
 Copy settings.json & keybindings.json to `%APPDATA%\Code\User\`
 
