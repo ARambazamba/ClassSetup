@@ -16,6 +16,8 @@ Open Browser on URL:
 http://localhost:5051
 ```
 
+> Note: As an alternative you can run my containertest image that i uploaded to Docker Hub using: `docker run -it --rm -p 5051:80 arambazamba/containertest`
+
 If you see this the test passed:
 
 ![container-test](_images/container-test.png)
