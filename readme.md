@@ -18,7 +18,7 @@ Web Development:
 Azure:
 
 - [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
-- [AZ-400: Azure DevOps Engineer](./classes/az400.md)
+- [AZ-400: Designing and Implementing Microsoft DevOps Solutions](./classes/az400.md)
 
 Microsoft 365
 

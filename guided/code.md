@@ -32,6 +32,8 @@ Execute `dumpExtensions.ps1`:
 code --list-extensions > ".\extensions.txt"
 ```
 
+>Note: Further VS Code Command Line Documentation can be found [here](https://code.visualstudio.com/docs/editor/command-line)
+
 ## Recommended VS Code Settings used for class delivery
 
 Copy settings.json & keybindings.json to `%APPDATA%\Code\User\`
