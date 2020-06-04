@@ -38,9 +38,17 @@ kubectl expose deployment containertest --type=LoadBalancer --port=8080
 
 Forward the port to Service
 
-![port-forward](_images/port-forward.png)
+```
+kubectl port-forward pods/containertest-579777cf8b-sxw7n 8080:80 -n default
+```
 
-> Note: Can also be done using: `kubectl port-forward pods/containertest-5656cfd5b8-gc2m9 8060:80 -n default`
+> Note: You can copy the pod name if you have install the [Kubernetes VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+
+![pod-name](_images/pod-name.png)
+
+You should see the following result
+
+![kubernetes-test](_images/kubernetes-test.png)
 
 Cleanup:
 
