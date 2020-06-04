@@ -18,7 +18,7 @@ http://localhost:5051
 
 If you see this the test passed:
 
-![container-test](_images/contaienr-test.png)
+![container-test](_images/container-test.png)
 
 ## Kubernetes
 
