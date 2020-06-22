@@ -14,4 +14,4 @@ Download [WebEx Client](https://akamaicdn.webex.com/client/WBXclient-39.1.2-6/we
 
 Use Feedback Buttons
 
-![feedback](_images/feedback.png)
+![feedback](_images/webex.png)
