@@ -23,3 +23,7 @@ Azure:
 Microsoft 365
 
 - [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms600.md)
+
+# Online Trainings
+
+- [Online Training Recommendations](./online/readme.md)
