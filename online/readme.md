@@ -2,7 +2,7 @@
 
 ## Privacy
 
-Remove Home-Office Background with free [ChromaCam](https://www.chromacam.me/)
+Online Class Diskussion is nicer when sseing each other. Use your WebCam. Remove Home-Office Background with free [ChromaCam](https://www.chromacam.me/)
 
 ![background](_images/chromacam.png)
 
