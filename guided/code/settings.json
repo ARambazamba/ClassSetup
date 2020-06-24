@@ -1,6 +1,6 @@
 {
   "workbench.startupEditor": "none",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "git.enableSmartCommit": true,
   "window.zoomLevel": 1,
   "problems.autoReveal": false,
@@ -27,18 +27,6 @@
   "todohighlight.isCaseSensitive": false,
   "todohighlight.keywords": [
     {
-      "text": "discuss:",
-      "color": "white",
-      "backgroundColor": "#006400",
-      "overviewRulerColor": "grey"
-    },
-    {
-      "text": "note:",
-      "color": "#ff0000",
-      "backgroundColor": "yellow",
-      "overviewRulerColor": "grey"
-    },
-    {
       "text": "todo:",
       "color": "red",
       "border": "1px solid red",
@@ -50,5 +38,24 @@
   "git.confirmSync": false,
   "git-graph.fetchAvatars": true,
   "git.autofetchPeriod": 90,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "codespaces.accountProvider": "Microsoft",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBrightBlack": "#11b9b9"
+  },
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Windows\\System32\\wsl.exe",
+      "label": "WSL Bash"
+    },
+    {
+      "shell": "C:\\Windows\\System32\\cmd.exe",
+      "label": "CMD"
+    },
+    {
+      "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
+    }
+  ]
 }

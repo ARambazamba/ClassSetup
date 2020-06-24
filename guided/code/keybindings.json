@@ -14,5 +14,10 @@
     "key": "ctrl+l",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  //Open Terminal of Type using Shell Launcher Extension
+  {
+    "key": "ctrl+shift+numpad_subtract",
+    "command": "shellLauncher.launch"
   }
 ]
