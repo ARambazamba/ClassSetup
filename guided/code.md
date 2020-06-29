@@ -38,7 +38,7 @@ code --list-extensions > ".\extensions.txt"
 
 Install [Shell Launcher VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
 
-Add Keybinding of your choice to keybindings.json
+Add Keybinding of your choice to `keybindings.json`:
 
 ```
 {
@@ -47,7 +47,7 @@ Add Keybinding of your choice to keybindings.json
 }
 ```
 
-Add Shell Launcher Config:
+Add Shell Launcher Config to `settings.json`:
 
 ```
 "shellLauncher.shells.windows": [
