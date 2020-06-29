@@ -6,8 +6,11 @@ choco install microsoft-windows-terminal -y
 choco install dotnetcore-sdk -y
 choco install azure-cli -y
 choco install az.powershell
-choco install git
-choco install gitextensions
+choco install microsoftazurestorageexplorer -y 
+choco install azure-data-studio -y
+choco install git -y
+choco install gitextensions -y
+choco install 7zip -y
 choco install docker-desktop -y
 choco install nvm -y
 nvm install 10.21.0
