@@ -5,4 +5,5 @@
 - [Node.js including Version Management](node.md)
 - [Windows Subsystem for Linux 2 - WSL 2](wsl.md)
 - [Docker & Kubernetes](docker.md)
+- [Windows Terminal](wt.md)
 - [Working with Markdown](markdown.md)
