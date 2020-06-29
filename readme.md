@@ -8,6 +8,8 @@
 - [Windows Terminal](./guided/wt.md)
 - [Working with Markdown](./guided/markdown.md)
 
+>Note: An automated Setup Script can be found [here](./chocolatery/readme.md). Configuration has to be done manually
+
 # Class Specific Requirements with no Guide
 
 Web Development:
