@@ -34,7 +34,22 @@ code --list-extensions > ".\extensions.txt"
 
 >Note: Further VS Code Command Line Documentation can be found [here](https://code.visualstudio.com/docs/editor/command-line)
 
-## Recommended VS Code Settings used for class delivery
+## Launche Shell of your Choice
+
+Install [Shell Launcher VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
+
+Add Keybinding of your choice to keybindings.json
+
+```
+{
+  "key": "ctrl+shift+numpad_subtract",
+  "command": "shellLauncher.launch"
+}
+```
+
+![shell-launcher](_images/shell-launcher.png)
+
+## VS Code Settings used for class delivery
 
 Copy settings.json & keybindings.json to `%APPDATA%\Code\User\`
 
