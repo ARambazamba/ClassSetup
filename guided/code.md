@@ -38,15 +38,6 @@ code --list-extensions > ".\extensions.txt"
 
 Install [Shell Launcher VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
 
-Add Keybinding of your choice to `keybindings.json`:
-
-```
-{
-  "key": "ctrl+shift+numpad_subtract",
-  "command": "shellLauncher.launch"
-}
-```
-
 Add Shell Launcher Config to `settings.json`:
 
 ```
@@ -65,6 +56,17 @@ Add Shell Launcher Config to `settings.json`:
   }
 ]
 ```
+
+Add Keybinding of your choice to `keybindings.json`:
+
+```
+{
+  "key": "ctrl+shift+numpad_subtract",
+  "command": "shellLauncher.launch"
+}
+```
+
+Using `ctrl+shift+numpad_subtract`:
 
 ![shell-launcher](_images/shell-launcher.png)
 
