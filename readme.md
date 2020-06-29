@@ -5,6 +5,7 @@
 - [Node.js including Version Management](./guided/node.md)
 - [Windows Subsystem for Linux 2 - WSL 2](./guided/wsl.md)
 - [Docker & Kubernetes](./guided/docker.md)
+- [Windows Terminal](./guid/wt.md)
 - [Working with Markdown](./guided/markdown.md)
 
 # Class Specific Requirements with no Guide
