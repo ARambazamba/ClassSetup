@@ -47,6 +47,25 @@ Add Keybinding of your choice to keybindings.json
 }
 ```
 
+Add Shell Launcher Config:
+
+```
+"shellLauncher.shells.windows": [
+  {
+    "shell": "C:\\Windows\\System32\\wsl.exe",
+    "label": "WSL Bash"
+  },
+  {
+    "shell": "C:\\Windows\\System32\\cmd.exe",
+    "label": "CMD"
+  },
+  {
+    "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "label": "PowerShell"
+  }
+]
+```
+
 ![shell-launcher](_images/shell-launcher.png)
 
 ## VS Code Settings used for class delivery
