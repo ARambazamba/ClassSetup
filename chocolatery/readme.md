@@ -30,3 +30,6 @@ nvm install 12.17.0
 ```
 
 >Note: You can customize this script to your needs and find further packages [here](https://chocolatey.org/packages)
+
+
+>Note: This script just downloads - it does no configure your pc due to liability issues
