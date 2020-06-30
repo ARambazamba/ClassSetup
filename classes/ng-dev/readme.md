@@ -6,7 +6,7 @@ Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www
 
 | Software                 | Link                                                                    |
 | ------------------------ | ----------------------------------------------------------------------- |
-| Windows 10               | https://www.microsoft.com/software-download/windows10                   |
+| Windows 10, Mac, Linux   | https://www.microsoft.com/software-download/windows10                   |
 | Visual Studio Code       | https://code.visualstudio.com/                                          |
 | Angular Language Service | https://marketplace.visualstudio.com/items?itemName=Angular.ng-template |
 | Git for Windows          | https://git-scm.com/download/win                                        |
