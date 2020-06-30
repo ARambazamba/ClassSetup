@@ -15,8 +15,8 @@
 Web Development:
 
 - [webAdv: Advanced Web Technologies](./classes/webAdv.md)
-- [ngDev: Angular Single Page Application Development](./classes/ngDev.md)
-- [ngAdv: Advanced Angular Development](./classes/ngAdv.md)
+- [ngDev: Angular Single Page Application Development](./classes/ng-dev/)
+- [ngAdv: Advanced Angular Development](./classes/ng-adv)
 
 Azure:
 

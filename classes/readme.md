@@ -8,8 +8,8 @@ Azure:
 Web Development:
 
 - [webAdv: Advanced Web Technologies](./classes/webAdv.md)
-- [ngDev: Angular Single Page Application Development](./classes/ng-dev/)
-- [ngAdv: Advanced Angular Development](./classes/ng-adv/)
+- [ngDev: Angular Single Page Application Development](./ng-dev/)
+- [ngAdv: Advanced Angular Development](./ng-adv/)
 - [react: Implementing Web Apps using React and Redux](react.md)
 
 Microsoft 365
