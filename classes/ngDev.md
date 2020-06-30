@@ -12,4 +12,6 @@ Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www
 | Git for Windows          | https://git-scm.com/download/win                                        |
 | Git Extensions           | http://gitextensions.github.io                                          |
 | Node.js 12.12.0          | https://nodejs.org/en/                                                  |
-| Angular CLI 9.x          | npm i -g @angular/cli                                                   |
+| Angular CLI 10.x         | npm i -g @angular/cli                                                   |
+
+>Note: An automated Setup can be done using Chocolatery and the scripts `install-chocolatery.ps1` and `setup-angular-dev.ps1`
