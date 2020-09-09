@@ -14,6 +14,7 @@ Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www
 | Node.js 12.12.0          | https://nodejs.org/en/                                                  |
 | Angular CLI 10.x         | npm i -g @angular/cli                                                   |
 | Docker Desktop           | https://www.docker.com/products/docker-desktop                          |
+| Kind                     |https://kind.sigs.k8s.io/dl/v0.8.1/kind-windows-amd64                    |
 
 > Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). WSL will be availabe with Windows 10 Version 2004 - Mai 2020 Update. Please follow Setup Instructions for in the Root Installation Guide
 
