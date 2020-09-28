@@ -8,7 +8,7 @@
 - [Windows Terminal](./guided/wt.md)
 - [Working with Markdown](./guided/markdown.md)
 
->Note: An automated Setup Script using [Chocolatery](https://chocolatey.org/) can be found [here](./chocolatery/). Configuration has to be done manually
+>Note: An automated Setup Script using [chocolatey](https://chocolatey.org/) can be found [here](./chocolatery/). Configuration has to be done manually
 
 # Class Specific Requirements with no Guide
 
