@@ -1,8 +1,8 @@
-# Setup using Chocolatery
+# Setup using chocolatey
 
-You can automate your Machine Setup using Chocolatery
+You can automate your Machine Setup using chocolatey
 
-Install Chocolatery using `install-chocolatery.ps1` in an elevated Powershell prompt
+Install chocolatey using `install-chocolatery.ps1` in an elevated Powershell prompt
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
