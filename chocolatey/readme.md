@@ -2,7 +2,7 @@
 
 You can automate your Machine Setup using chocolatey
 
-Install chocolatey using `install-chocolatery.ps1` in an elevated Powershell prompt
+Install chocolatey using `install-chocolatey.ps1` in an elevated Powershell prompt
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -18,7 +18,7 @@ choco install microsoft-windows-terminal -y
 choco install dotnetcore-sdk -y
 choco install azure-cli -y
 choco install az.powershell
-choco install microsoftazurestorageexplorer -y 
+choco install microsoftazurestorageexplorer -y
 choco install azure-data-studio -y
 choco install git -y
 choco install gitextensions -y
@@ -29,7 +29,6 @@ nvm install 10.21.0
 nvm install 12.17.0
 ```
 
->Note: You can customize this script to your needs and find further packages [here](https://chocolatey.org/packages)
+> Note: You can customize this script to your needs and find further packages [here](https://chocolatey.org/packages)
 
-
->Note: This script just downloads - it does no configure your pc due to liability issues
+> Note: This script just downloads - it does no configure your pc due to liability issues
