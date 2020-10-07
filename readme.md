@@ -8,24 +8,24 @@
 - [Windows Terminal](./guided/wt.md)
 - [Working with Markdown](./guided/markdown.md)
 
->Note: An automated Setup Script using [Chocolatery](https://chocolatey.org/) can be found [here](./chocolatery/). Configuration has to be done manually
+> Note: An automated Setup Script using [Chocolatery](https://chocolatey.org/) can be found [here](./chocolatery/). Configuration has to be done manually
 
 # Class Specific Requirements with no Guide
 
 Web Development:
 
-- [webAdv: Advanced Web Technologies](./classes/webAdv.md)
+- [webAdv: Advanced Web Technologies](./classes/webAdv/)
 - [ngDev: Angular Single Page Application Development](./classes/ng-dev/)
-- [ngAdv: Advanced Angular Development](./classes/ng-adv)
+- [ngAdv: Advanced Angular Development](./classes/ng-adv/)
 
 Azure:
 
-- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
-- [AZ-400: Designing and Implementing Microsoft DevOps Solutions](./classes/az400.md)
+- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204/)
+- [AZ-400: Designing and Implementing Microsoft DevOps Solutions](./classes/az-400/)
 
 Microsoft 365
 
-- [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms600.md)
+- [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms600/)
 
 # Online Trainings
 
