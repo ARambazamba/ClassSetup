@@ -13,3 +13,8 @@ choco install azure-cli
 # Install Node
 nvm install 12.19.0
 nvm use 12.19.0
+
+# WSL, Docker, Kubernetes, Helm ... Might need manual Setup
+choco install wsl
+choco install docker-desktop
+choco install kubernetes-helm
