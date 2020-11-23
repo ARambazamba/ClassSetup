@@ -20,7 +20,7 @@ Web Development:
 
 Azure:
 
-- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204/)
+- [AZ-204: Developing solutions for Microsoft Azure](./classes/az-204/)
 - [AZ-400: Designing and Implementing Microsoft DevOps Solutions](./classes/az-400/)
 
 Microsoft 365
