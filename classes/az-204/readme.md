@@ -2,11 +2,31 @@
 
 Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx)
 
+If you want to try this on a cloud vm you can install it using [Cloud Shell]() and execute the script `install-cloud-vm.azcli` or:
+
+```
+rnd=007
+loc=westeurope
+grp=az204class
+vmname=devvm-$rnd
+user=az204admin
+pwd=TiTp4@dmin12334!
+
+az group create -n $grp -l $loc
+
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image Win2019Datacenter --size Standard_B2ms
+```
+
+After provisioning of the vm execute the following scripts:
+
+`install-chocolatey.ps1` installs [Chocolatey - The Package Manager for Windows](https://chocolatey.org/) - Run from elevated Powershell promopt
+`setup-az-204.ps1` installs Software needed for this class
+
 # Lab Machine Software Requirements
 
 | Software                                                  | Link                                                                                    |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Windows 10                                                | https://www.microsoft.com/software-download/windows10                                   |  |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------- | --- |
+| Windows 10                                                | https://www.microsoft.com/software-download/windows10                                   |     |
 | Visual Studio Code                                        | https://code.visualstudio.com/                                                          |
 | Visual Studio Code Azure Account Extension                | https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account             |
 | Visual Studio Code Azure Resource Manager Tools Extension | https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools |
