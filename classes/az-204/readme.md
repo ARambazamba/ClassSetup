@@ -2,7 +2,7 @@
 
 Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx)
 
-If you want to try this on a cloud vm you can install it using [Cloud Shell]() and execute the script `install-cloud-vm.azcli` or:
+If you want to try this on a cloud vm you can install it using [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) and execute the script `install-cloud-vm.azcli` or:
 
 ```
 rnd=007
