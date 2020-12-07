@@ -25,8 +25,8 @@ After provisioning of the vm execute the following scripts:
 # Lab Machine Software Requirements
 
 | Software                                                  | Link                                                                                    |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------- | --- |
-| Windows 10                                                | https://www.microsoft.com/software-download/windows10                                   |     |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Windows 10                                                | https://www.microsoft.com/software-download/windows10                                   |
 | Visual Studio Code                                        | https://code.visualstudio.com/                                                          |
 | Visual Studio Code Azure Account Extension                | https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account             |
 | Visual Studio Code Azure Resource Manager Tools Extension | https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools |
