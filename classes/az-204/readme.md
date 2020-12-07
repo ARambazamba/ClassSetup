@@ -38,7 +38,7 @@ After provisioning of the vm execute the following scripts:
 | Azure Storage Explorer                                    | https://azure.microsoft.com/features/storage-explorer/                                  |
 | Git for Windows                                           | https://git-scm.com/download/win                                                        |
 | Git Extensions                                            | http://gitextensions.github.io                                                          |
-| .NET Core 2.2 SDK, .NET Core 3.1 SDK                      | https://dotnet.microsoft.com/download                                                   |
+| .NET 5 SDK, .NET Core 3.1 SDK                             | https://dotnet.microsoft.com/download                                                   |
 | Setx                                                      | https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx    |
 | azCopy                                                    | https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10            |
 | Docker Desktop                                            | https://www.docker.com/products/docker-desktop                                          |
