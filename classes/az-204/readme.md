@@ -2,6 +2,15 @@
 
 Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx)
 
+Setup of required software can be achived by two installation scripts:
+
+- `install-chocolatey.ps1` installs [Chocolatey - The Package Manager for Windows](https://chocolatey.org/)
+- `setup-az-204.ps1` installs Software needed for this class
+
+> Note: Run both scripts from an elevated PowerShell Prompt
+
+> Note: For some parts of module 1 and module 5 docker support is required to be able to complete the labs. A manual guide on how to configure docker is provided [here](https://github.com/ARambazamba/ClassSetup/blob/master/guided/docker.md)
+
 If you want to try this on a cloud vm you can install it using [Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) and execute the script `install-cloud-vm.azcli` or:
 
 ```
@@ -19,7 +28,7 @@ az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --i
 
 After provisioning of the vm execute the following scripts:
 
-`install-chocolatey.ps1` installs [Chocolatey - The Package Manager for Windows](https://chocolatey.org/) - Run from elevated Powershell promopt
+`install-chocolatey.ps1` installs [Chocolatey - The Package Manager for Windows](https://chocolatey.org/)
 `setup-az-204.ps1` installs Software needed for this class
 
 # Lab Machine Software Requirements
