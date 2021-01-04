@@ -14,7 +14,7 @@ pwd=TiTp4@dmin12334!
 
 az group create -n $grp -l $loc
 
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image Win2019Datacenter --size Standard_B2ms
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image windows-10-20h2-vhd-server-prod-stage --size Standard_E2s_v3
 ```
 
 After provisioning of the vm execute the following scripts:
