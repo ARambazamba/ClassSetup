@@ -35,7 +35,6 @@ After provisioning of the vm execute the following scripts:
 
 | Software                                                  | Link                                                                                    |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Windows 10                                                | https://www.microsoft.com/software-download/windows10                                   |
 | Visual Studio Code                                        | https://code.visualstudio.com/                                                          |
 | Visual Studio Code Azure Account Extension                | https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account             |
 | Visual Studio Code Azure Resource Manager Tools Extension | https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools |
@@ -51,6 +50,6 @@ After provisioning of the vm execute the following scripts:
 | Setx                                                      | https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/setx    |
 | azCopy                                                    | https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10            |
 | Docker Desktop                                            | https://www.docker.com/products/docker-desktop                                          |
-| Node.js LTS                                               | https://nodejs.org/en/                                                                  |
+| Node.js 10.23.0                                           | https://nodejs.org/download/release/v10.23.0/                                           |
 
 > Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). WSL will be availabe with Windows 10 Version 2004 - Mai 2020 Update. Please follow Setup Instructions for in the Root Installation Guide
