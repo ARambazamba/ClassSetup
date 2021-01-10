@@ -52,4 +52,4 @@ After provisioning of the vm execute the following scripts:
 | Docker Desktop                                            | https://www.docker.com/products/docker-desktop                                          |
 | Node.js 10.23.0                                           | https://nodejs.org/download/release/v10.23.0/                                           |
 
-> Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). WSL will be availabe with Windows 10 Version 2004 - Mai 2020 Update. Please follow Setup Instructions for in the Root Installation Guide
+> Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). WSL will be availabe with Windows 10 Version 2004 - Mai 2020 Update. Please follow Setup Instructions in the Root Installation Guide
