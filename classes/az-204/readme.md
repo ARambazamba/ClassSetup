@@ -22,8 +22,6 @@ pwd=Lab@dmin1233
 az group create -n $grp -l $loc
 
 az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:20h2-entn-g2:19042.630.2011061636 --size Standard_E2s_v3
-
-az vm run-command invoke  --command-id RunPowerShellScript -name $vmname -g $grp --scripts https://raw.githubusercontent.com/ARambazamba/AZ-204/master/Labs/setup-az-204.ps1
 ```
 
 > Note: The script `setup-az-204.ps1` uses [Chocolatey - The Package Manager for Windows](https://chocolatey.org/) to install the required software
