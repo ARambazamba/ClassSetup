@@ -5,7 +5,7 @@ Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www
 Setup of required software can be achived by two installation scripts:
 
 - `install-lab-vm.azcli` installs a lab VM capable of running nested Virtualization which is required in order to install Windows Subsystem for Linux 2 (WSL 2)
-- `setup-az-204.ps1` installs Software needed for this class
+- `setup-az-204.ps1` installs all software needed for this class
 
 > Note: For some parts of module 1 and module 5 docker support is required to be able to complete the labs. A manual guide on how to configure docker is provided [here](https://github.com/ARambazamba/ClassSetup/blob/master/guided/docker.md)
 
