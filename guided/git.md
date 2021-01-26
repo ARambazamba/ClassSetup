@@ -8,16 +8,6 @@
 
 [Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
 
-## Labs
-
-[Version Controlling with Git in Azure Repos - Exercises 1 - 5](https://www.azuredevopslabs.com/labs/azuredevops/git/)
-
-## Learning Labs:
-
-[Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)
-
-[Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)
-
 # Git / Github Essentials
 
 ## Configuration
@@ -43,13 +33,19 @@ Init Git:
 git init
 ```
 
-Add all files to Git:
+Get Status
+
+```
+git status
+```
+
+Stage all files:
 
 ```
 git add .
 ```
 
-Add a specific file to Git:
+Stage a specific file and all TypeScript files:
 
 ```
 git add file.txt | *.ts
@@ -59,26 +55,6 @@ Commit files:
 
 ```
 git commit -m "your checkin comment"
-```
-
-## Status & Updates
-
-Show Commit logs:
-
-```
-git log
-```
-
-Check for remote updates:
-
-```
-git remote update
-```
-
-Show Status (Adds/Delets/Changes):
-
-```
-git status
 ```
 
 ## Branching
@@ -211,11 +187,11 @@ Pull / Push from / to repository:
 git pull / git push
 ```
 
-## Refresh from Upstream
+## Forking Workflow - Getting Updates for Class Demos
 
-> Note: You can use this guide to refresh changes I made during the week to your forked repo
+![forking-wf](_images/forking-workflow.jpg)
 
-Original Repo could be: `https://github.com/ARambazamba/AdvancedAngularDevelopment` where `ARambazamba` is the `original-owner-github-username` and `AdvancedAngularDevelopment` is the `reponame`
+Original Repo could be: `https://github.com/ARambazamba/AZ-204` where `ARambazamba` is the `original-owner-github-username` and `AZ-204` is the `reponame`
 
 ### Listing the current Remotes
 
@@ -251,13 +227,34 @@ Fetch from Upstream:
 
 ```
  git fetch upstream
- git merge upstream/master
- git push origin master
+ git merge upstream/main
+ git push origin main
 ```
+
+## Working with Submodules
+
+Add a Submodule:
+
+```
+git submodule add https://github.com/ARambazamba/FoodApp FoodApp
+git commit -m foodapp-submodule
+```
+
+Updating a Submodule to it's latest commit:
+
+```
+git submodule update --remote --merge
+```
+
+> Note: I use submodules to include samples in classes that are used in different classes or to shorten / avoid path problems in devops
 
 ## Git-flow
 
-[Gitflow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+GitFlow is a branching model for Git, created by Vincent Driessen. It has attracted a lot of attention because it is very well suited to collaboration and scaling the development team.
+
+[Git-flow Intoduction & Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+
+![git-flow](_images/git-flow.png)
 
 > Note: Require GIT 2.24.0+ - Check with `git --version`
 
@@ -296,3 +293,9 @@ Finish a release:
 ```
 git flow release finish  RELEASE
 ```
+
+## Additional Labs & Walkthroughs
+
+[Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)
+
+[Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)
