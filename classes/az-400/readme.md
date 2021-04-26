@@ -1,6 +1,6 @@
 # AZ-400: Designing and Implementing Microsoft DevOps Solutions
 
-Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx)
+Companion Software Inventory for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx). The required Script can be installed using `setup-az-400.ps1`
 
 # Lab Machine Software Requirements
 
