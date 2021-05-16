@@ -10,8 +10,8 @@ Web Development:
 - [webAdv: Advanced Web Technologies](./classes/webAdv.md)
 - [ngDev: Angular Single Page Application Development](./ng-dev/)
 - [ngAdv: Advanced Angular Development](./ng-adv/)
-- [react: Implementing Web Apps using React and Redux](react.md)
 
 Microsoft 365
 
+- [m365-dev: Microsoft 365 - Client Side Development Fundamentals](./m365-dev/)
 - [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms600.md)
