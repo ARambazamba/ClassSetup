@@ -31,13 +31,16 @@ choco install azurepowershell -y
 choco install microsoftazurestorageexplorer -y
 choco install azure-data-studio -y
 choco install postman -y
-choco install microsoft-teams -y
-choco install snagit -y
+choco install ngrok -y
 
 # Refresh Path Env
 Write-Host "Refresh Path Env - 4/6" -ForegroundColor yellow
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+# Install httprepl
+dotnet tool install -g Microsoft.dotnet-httprepl
+dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
 
 # Intall VS Code Extensions
 Write-Host "VS Code Extensions - 5/6" -ForegroundColor yellow
@@ -53,6 +56,7 @@ code --install-extension ms-azuretools.vscode-azureappservice
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-azuretools.vscode-cosmosdb
 code --install-extension ms-azuretools.vscode-azurefunctions
+code --install-extension ms-azuretools.vscode-azurestaticwebapps
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension redhat.vscode-yaml
 code --install-extension bencoleman.armview

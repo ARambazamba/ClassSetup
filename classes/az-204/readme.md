@@ -1,6 +1,6 @@
 # Lab VM Setup Guide
 
-Lab Machine Software Requirements:
+## Lab Machine Software Requirements:
 
 | Software                                                  | Link                                                                                    |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ Lab Machine Software Requirements:
 | Git Extensions                                            | http://gitextensions.github.io                                                          |
 | .NET 5 SDK, .NET Core 3.1 SDK                             | https://dotnet.microsoft.com/download                                                   |
 | Docker Desktop                                            | https://www.docker.com/products/docker-desktop                                          |
-| Node.js 10.23.0                                           | https://nodejs.org/download/release/v10.23.0/                                           |
+| Node.js 12.20.0                                           | https://nodejs.org/download/release/v10.23.0/                                           |
 
 ## <a id="basics">Create VM</a>
 
