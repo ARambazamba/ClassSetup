@@ -14,18 +14,19 @@
 
 Web Development:
 
-- [webAdv: Advanced Web Technologies](./classes/webAdv/)
+- [webAdv: Advanced Web Technologies](./classes/webAdv.md)
 - [ngDev: Angular Single Page Application Development](./classes/ng-dev/)
 - [ngAdv: Advanced Angular Development](./classes/ng-adv/)
 
 Azure:
 
-- [AZ-204: Developing solutions for Microsoft Azure](./classes/az-204/)
-- [AZ-400: Designing and Implementing Microsoft DevOps Solutions](./classes/az-400/)
+- [AZ-204: Developing solutions for Microsoft Azure](./classes/az204.md)
+- [AZ-400: Azure DevOps Engineer](./classes/az400.md)
 
 Microsoft 365
 
-- [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms-600/)
+- [m365-dev: Microsoft 365 - Client Side Development Fundamentals](./classes/m365-dev/)
+- [MS-600: Building Applications and Solutions with Microsoft 365 Core Services](./classes/ms600.md)
 
 # Online Trainings
 
