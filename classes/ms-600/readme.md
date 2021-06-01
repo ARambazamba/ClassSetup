@@ -1,4 +1,4 @@
-# Setup Guide
+# MS-600 Class Setup Guide
 
 Two options:
 
