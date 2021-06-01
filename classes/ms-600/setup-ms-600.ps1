@@ -55,10 +55,7 @@ npm i -g generator-teams
 npm i -g -g yo generator-office
 
 # SPA Frameworks
-npm i -g -g yo generator-office
 npm i -g create-react-app
-npx @angular/cli@latest analytics off
-npm i -g @angular/cli
 
 # Finished Msg
 Write-Host "Finished Software installation" -ForegroundColor yellow
