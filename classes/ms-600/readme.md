@@ -68,7 +68,7 @@ Accept Settings:
 
 ![accept-settings](_images/accept-settings.jpg)
 
-## Install Software
+## Install required software
 
 To install Software run the script `setup-ms-600.ps1` from an elevated PowerShell prompt:
 
