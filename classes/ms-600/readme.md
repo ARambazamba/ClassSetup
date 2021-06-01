@@ -16,13 +16,13 @@ pwd=Lab@dmin1233
 
 az group create -n $grp -l $loc
 
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:20h2-pro:19042.746.2101092352 --size Stan
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image  MicrosoftWindowsDesktop:Windows-10:20h1-pro-g2:19041.928.2104091205 --size Standard_E2s_v3
 ```
 
 > Note: You could also execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
 
 ```bash
-curl https://raw.githubusercontent.com/arambazamba/MS-600/master/Setup/create-lab-vm.sh | bash
+curl https://raw.githubusercontent.com/arambazamba/ClassSetup/master/classes/ms-600/create-lab-vm.sh | bash
 ```
 
 ![create-labvm](_images/create-lab-vm.jpg)
