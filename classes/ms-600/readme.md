@@ -77,7 +77,7 @@ To install Software run the script `setup-ms-600.ps1` from an elevated PowerShel
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ARambazamba/ms-600/master/Setup/setup-ms-600.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/class-setup/master/classes/ms-600/setup-ms-600.ps1'))
 ```
 
 > Note: This script will run for approx 20 min. No need to wait! In the meantime you can continue to fork and clone my repo as described in the next section.
