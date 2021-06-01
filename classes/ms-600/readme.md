@@ -35,16 +35,14 @@ az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --i
 > Note: You could also execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
 
 ```bash
-curl https://raw.githubusercontent.com/arambazamba/ClassSetup/master/classes/ms-600/create-lab-vm.sh | bash
+curl https://raw.githubusercontent.com/arambazamba/class-setup/master/classes/ms-600/create-lab-vm.sh | bash
 ```
 
 ![create-labvm](_images/create-lab-vm.jpg)
 
-> Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). A detailed Setup Guide can be found [here](https://github.com/ARambazamba/ClassSetup)
-
 ## Connect to VM
 
-Go to Ressource Group `ms-600-lab` and connect to VM using RDP and the credentials that you have used in the script:
+Go to Ressource Group `az-lab` and connect to VM using RDP and the credentials that you have used in the script:
 
 Download RDP File:
 
