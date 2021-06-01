@@ -14,7 +14,7 @@ Two options:
     -   Azure Paid / Sponsored Subscription
     -   [Azure Trial Subscription](https://azure.microsoft.com/en-us/free/)
 
-## Create Azure hosted VM
+## Create Azure hosted lab VM
 
 Script `create-lab-vm.azcli`:
 
