@@ -1,8 +1,21 @@
-# Lab VM Setup Guide
+# Setup Guide
 
-## Create VM
+Two options:
 
-We are using this image and vm size because it supports nested virtualization used for Hyper-V and WSL2 Support
+-   Use your own PC and install the required Software using: `setup-ms-600.ps1`
+-   Use an Azure hosted VM to avoid company restrictions and prox issue
+
+## Required Cloud Ressources
+
+-   [Github User Account](https://github.com/)
+-   [Microsoft 365 Developer Tenant](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
+-   [Azure DevOps Account](https://dev.azure.com/)
+-   Azure Subscription:
+    -   Using [Azure Passes](https://www.microsoftazurepass.com/)
+    -   Azure Paid / Sponsored Subscription
+    -   [Azure Trial Subscription](https://azure.microsoft.com/en-us/free/)
+
+## Create Azure hosted VM
 
 Script `create-lab-vm.azcli`:
 
